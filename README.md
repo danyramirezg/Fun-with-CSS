@@ -5,7 +5,12 @@ In this project, you will experiment and implement fun layout with HTML and CSS 
 ## Resources:books:
 Read or watch:
 * [Measure the size of the image](https://www.toptal.com/developers/css/sprite-generator/)
-* [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+* [Color picker - Colorzilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+ * [Toggle Switch](https://www.w3schools.com/howto/howto_css_switch.asp)
+
+ * [Hamburguer menu](https://blog.aulaformativa.com/fantasticas-animaciones-de-codepen-para-tu-hamburger-menu/)
+
+ * [Hamburguer menu CSS](https://dev.to/tognola/menu-hamburguesa-solo-con-css-facil-1doc)
 
 ---
 ## Learning Objectives:bulb:
