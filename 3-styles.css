@@ -1,0 +1,78 @@
+.menu-item {
+  display: flex;
+  cursor: none;
+}
+
+input {
+  display: none;
+}
+
+.menu-open-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(206, 6, 6);
+  background-color: red;
+  margin-bottom: 8px;
+  cursor: none;
+}
+
+.menu-line {
+  width: 20px;
+  height: 1.5px;
+  margin: 1px;
+  background-color: white;
+}
+
+.menu-open-button:hover {
+  width: 38px;
+  height: 38px;
+}
+
+input:checked ~ .menu-open-button .menu-line-1 {
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+input:checked ~ .menu-open-button .menu-line-2 {
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+input:checked ~ .menu-open-button .menu-line-3 {
+  display: none;
+}
+
+.menu-item {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(206, 6, 6);
+  background-color: red;
+  color: white;
+  margin: 3px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out;
+}
+
+input:checked ~ .menu-item {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.menu-item:hover {
+  color: red;
+  background-color: white;
+}
+
+.menu-open-button:hover .menu-line {
+  transition: transform, 0.3s;
+}
